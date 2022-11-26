@@ -327,9 +327,6 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    #sidemenu{
-        width: -200px;
-    }
     nav .fas{
         display: block;
         font-size: 25px;
