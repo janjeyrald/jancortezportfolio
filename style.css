@@ -327,17 +327,26 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    #sidemenu{display: none;}
+    #sidemenu{
+        width: -200px;
+    }
     nav .fas{
         display: block;
         font-size: 25px;
+    }
+    .show_menu{
+        display: block;
+        margin-right: 200px;
+    }
+    .hide.menu{
+        display: none;
     }
     nav ul {
         background: #059cfb;
         position: fixed;
         top: 0;
-        right: 0;
-        width: -200px;
+        right: -200px;
+        width: 200px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;

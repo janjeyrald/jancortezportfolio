@@ -1,7 +1,9 @@
 var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right="0";
-}
-function closemenu(){
-    sidemenu.style.right = "-200px";
-}
+function openMenu() {
+    sidemenu.classList.add("show_menu");
+    sidemenu.classList.remove("hide_menu");
+   }
+   function closeMenu() {
+    sidemenu.classList.add("hide_menu");
+    sidemenu.classList.remove("show_menu");
+   }
